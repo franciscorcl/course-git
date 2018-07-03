@@ -1,0 +1,32 @@
+git init
+git status
+> Criar um arquivo .gitignore
+git add
+git commit -m "%mensagem"
+git log
+git commit -a - m "%mensagem"
+git log --pretty=oneline
+git commit -amend - m "%mensagem"
+git reset HEAD <file>
+
+//TAGS
+git checkout -- <file> //reverte o arquivo para, deve ser feito antes do commit
+git tag
+git tag -a V1.0 -m "Versão 1.0"
+git tag -a V0.0 7cba51dd717510ae39dd886c6d0b8e485660242d -m "Versao 0.0"
+git show
+git checkout V0.0
+git checkout V1.0
+git checkout master
+git tag -d
+
+//BRANCH
+git branch
+git branch <nome>
+git checkout <nome>
+git checkout -b <nome>
+git merge <nome>
+git branch -d <nome> // deleta o branch
+
+//PROJETOS
+git init --bare //aceita envio de arquivos
